@@ -35,7 +35,7 @@ body {
 }
 
 .container {
-    margin-top: 70px;
+    margin-top: 200px;
     display: grid;
     grid-template-columns: 40% 60%;
     grid-template-rows: 50% 50%;
@@ -79,7 +79,7 @@ body {
 }
 
 #text-tarea {
-    width: 90%;
+    width: 94%;
     height: 50px;
     border: none;
     outline: none;
@@ -351,14 +351,34 @@ body {
     -moz-transition: box-shadow 0.2s ease-in;
     transition: box-shadow 0.2s ease-in;
 }
-
+@media (max-width: 1630px) {
+    #text-tarea {
+        width: 92%;
+    }
+}
+@media (max-width: 1350px) {
+    #text-tarea {
+        width: 90%;
+    }
+}
 @media (max-width: 1250px) {
     .container {
         width: 80%;
     }
+    #text-tarea {
+        width: 92%;
+    }
+}
+@media (max-width: 1080px) {
+    #text-tarea {
+        width: 91%;
+    }
 }
 @media (max-width: 970px) {
     .container {
+        width: 90%;
+    }
+    #text-tarea {
         width: 90%;
     }
     .contact .contactMail a{
@@ -368,6 +388,9 @@ body {
 @media (max-width: 780px) {
     .container {
         width: 95%;
+    }
+    #text-tarea {
+        width: 88%;
     }
     .lista-tereas li {
         font-size: 17px;
