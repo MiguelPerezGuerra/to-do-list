@@ -4,6 +4,8 @@
 
 Esta es una sencilla aplicación web de To-Do List desarrollada con HTML5, CSS3 y JavaScript. Permite al usuario agregar tareas a una lista de cosas por hacer y eliminarlas cuando ya no son necesarias. La aplicación utiliza el Local Storage del navegador para guardar las tareas, lo que significa que los datos se mantienen incluso después de cerrar el navegador.
 
+Visita [To-Do List](https://todolistmiguelperezguerra.netlify.app/) para interactuar con la app.
+
 ## Características principales
 
 - Agregar tareas: Permite agregar nuevas tareas a la lista.

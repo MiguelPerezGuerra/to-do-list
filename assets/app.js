@@ -1,13 +1,13 @@
 //variables
 const formulario = document.querySelector('#formulario');
 const listaTareas = document.querySelector('.lista-tereas');
-let tareas = [{ id: 1690921541612, tarea: "Dominando Local Storage Js" }, { id: 1690921582796, tarea: "Practicando HTML y CSS" }]
+let tareas = []
 
 //eventListener
 eventListener();
 function eventListener() {
     document.addEventListener('DOMContentLoaded', () => {
-        tareas = JSON.parse(localStorage.getItem('tareas')) || [];
+        tareas = JSON.parse(localStorage.getItem('tareas')) || [{ id: 1690921541612, tarea: "Dominando Local Storage Js" }, { id: 1690921582796, tarea: "Practicando HTML y CSS" }];
         crearHtml();
     });
 
