@@ -398,6 +398,7 @@ body {
 }
 @media (max-width: 650px) {
     .container {
+        margin-top: 20px;
         width: 90%;
         grid-template-rows: 1fr 1fr 1fr;
         align-items: center;
@@ -440,4 +441,12 @@ body {
         align-items: center;
     }
 
+}
+@media (max-width: 470px) {
+    .lista-tereas li {
+        font-size: 17px;
+    }
+    .contactMail{
+        text-align: center;
+    }
 }
